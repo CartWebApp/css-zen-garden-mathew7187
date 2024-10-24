@@ -1,1 +1,56 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.intro {
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Zen Garden: Code </h1>
+
+<div class="intro">
+<p>CSS Design</p>
+<p>Font here</p.
+</div>
+
+<div class="intro">
+<p> id="firstname">CSS Design</p>
+<p> id="hometown">CSS Zen Garden: Code</p>
+</div>
+
+* {
+    border: 2px solid green;
+    background-color: beige;
+}
+
+<h1>Demo of the * selector</h1>
+
+<div class="intro">
+  <p id="firstname">CSS Selector.</p>
+  <p>CSS Zen Garden: Code</p>
+</div>
+
+<p>CSS Zen Garden: <span>Code</span>. </p>
+
+h1 {
+    border: 2px solid green;
+    background-color: yellow;
+}
+p {
+background-color:  yellow
+}
+
+<h1>Demo of the element selector</h1>
+
+<div>
+<p id="firstname">CSS Selector.</p>
+<p>CSS Zen Garden: Code</p>
+</div>
+
+<p>CSS</p>
+
+<span>This is some text in a span.</span>
