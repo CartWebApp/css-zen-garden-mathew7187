@@ -4,7 +4,7 @@
 <head>
 <style>
 .intro {
-    background-color: yellow;
+    background-color: ;
 }
 </style>
 </head>
@@ -54,3 +54,12 @@ background-color:  yellow
 <p>CSS</p>
 
 <span>This is some text in a span.</span>
+
+.intro {
+    background-color: yellow;
+}
+
+<h1>Demo of the .class selector</h1>
+
+<p>A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.</p>
+<p>Download the example
