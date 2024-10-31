@@ -1,65 +1,168 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.intro {
-    background-color: ;
-}
-</style>
-</head>
-<body>
-
-<h1>CSS Zen Garden: Code </h1>
-
-<div class="intro">
-<p>CSS Design</p>
-<p>Font here</p.
-</div>
-
-<div class="intro">
-<p> id="firstname">CSS Design</p>
-<p> id="hometown">CSS Zen Garden: Code</p>
-</div>
-
-* {
-    border: 2px solid green;
-    background-color: beige;
+#zen-intro {
+  background-color: burlywood;
+  color: black
 }
 
-<h1>Demo of the * selector</h1>
-
-<div class="intro">
-  <p id="firstname">CSS Selector.</p>
-  <p>CSS Zen Garden: Code</p>
-</div>
-
-<p>CSS Zen Garden: <span>Code</span>. </p>
-
-h1 {
-    border: 2px solid green;
-    background-color: yellow;
-}
-p {
-background-color:  yellow
+.main.supporting {
+  background-color: aliceblue;
+  color: brown;
+  font-size: large;
 }
 
-<h1>Demo of the element selector</h1>
 
-<div>
-<p id="firstname">CSS Selector.</p>
-<p>CSS Zen Garden: Code</p>
-</div>
+  a:link {
+    color: rosybrown;
+  }
 
-<p>CSS</p>
+  a:visited {
+    color: aqua
+  }
 
-<span>This is some text in a span.</span>
+.summary {
+  background-color: whitesmoke;
+}
+.preamble {
+ color: black
+} 
 
-.intro {
-    background-color: yellow;
+::selection {
+  color: red;
+  background: blue;
 }
 
-<h1>Demo of the .class selector</h1>
+:root {
+  background-color: brown;
+  padding: 5px;
+}
 
-<p>A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.</p>
-<p>Download the example
+.participation {
+  background-color: salmon
+}
+
+.benefits {
+  background-color: antiquewhite;
+}
+
+.requirements { 
+  background-color: aquamarine
+}
+
+.sidebar {
+  background-color: yellowgreen;
+}
+
+.wrapper {
+  background-color: azure
+}
+
+.design-selection {
+  background-color: beige
+}
+
+.archives {
+  background-color: paleturquoise
+}
+
+.next {
+color: red;
+}
+
+.viewall {
+color: green
+}
+
+.zen-resources {
+
+}
+
+.resources {
+color: blue
+}
+
+.view-css {
+background-color: blue
+}
+
+.css-resources {
+
+}
+
+.zen-faq {
+
+}
+
+.zen-submit {
+
+}
+
+.zen-translation {
+
+}
+
+.extra1 {
+
+}
+
+.extra2 {
+
+}
+
+.extra3 {
+
+}
+
+.extra4 {
+
+}
+
+.extra5 {
+
+}
+
+.extra6 {
+
+}
+
+a:active {
+  background-color: yellow;
+}
+
+a:hover {
+  background-color: yellowgreen;
+  font-size: 18px;
+}
+
+p:first-child {
+  background-color: papayawhip;
+}
+
+p:last-child {
+  background-color: palegoldenrod;
+}
+
+li:last-child {
+  background-color: palegoldenrod;
+}
+
+:nth-child(4) {
+  background-color: lightgoldenrodyellow;
+}
+
+div:nth-child(2) {
+  background-color: lavenderblush;
+}
+
+li:nth-child(2) {
+  background-color: lavender;
+}
+
+:not(p) {
+  color: darkgray;
+}
+
+
+
+box:empty {
+  background-color: blue;
+}
