@@ -81,7 +81,7 @@ color: blue
 }
 
 .view-css {
-background-color: blue
+background-color: lightcyan;
 }
 
 .css-resources {
@@ -165,4 +165,30 @@ li:nth-child(2) {
 
 box:empty {
   background-color: blue;
+}
+
+h1 {
+  border: 2px solid blue;
+  background-color: lightblue
+}
+
+p {
+  background-color: lightcyan;
+}
+
+.intro {
+  background-color:blue
+}
+
+a[target="_blank"] {
+  background-color: blue;
+}
+
+
+[role="banner"] {
+  background: floralwhite;
+}
+
+[role="article"] {
+  background: whitesmoke;
 }
